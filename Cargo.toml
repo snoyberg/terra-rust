@@ -20,7 +20,7 @@ exclude = [
 ]
 
 [features]
-default = ["native-tls"]
+default = ["rustls-tls"]
 native-tls = ["terra-rust-api/native-tls"]
 rustls-tls = ["terra-rust-api/rustls-tls"]
 
